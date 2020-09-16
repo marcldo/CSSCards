@@ -98,3 +98,11 @@ body {
   font-weight: 700;
   color: #7a7a8c;
 }
+
+.card-header h2:hover {
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
